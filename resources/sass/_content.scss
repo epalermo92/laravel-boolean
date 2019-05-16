@@ -1,0 +1,57 @@
+.content{
+  width: 100%;
+
+  .become-developer{
+    width: 100%;
+    height: 450px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    .left,.right{
+      width: 50%;
+      height: 100%;
+    }
+
+    .left{
+      @include myflex-center;
+
+      .cont{
+        width: 60%;
+        height: 70%;
+      }
+
+      h1{
+        color: $booleanGreen;
+        font-size: 45px;
+        font-weight: 400;
+
+        margin-bottom: 8px;
+      }
+
+      p{
+        color: $principalColor;
+        font-size: 18px;
+
+        margin-bottom: 40px;
+      }
+
+      a{
+        color: white;
+        background-color: #F47637;
+        font-size: 18px;
+
+        padding: 15px 20px;
+      }
+    }
+
+    .right{
+      @include myflex-center;
+
+      >img{
+        width: 80%;
+        height: 75%;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@media all and (max-width : 1000px){
+  .navbar-item{
+    display: none;
+  }
+
+  .become-developer > .left,.become-developer > .right{
+    width: 100% !important;
+  }
+}
