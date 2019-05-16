@@ -14,4 +14,14 @@
       <img src="https://www.boolean.careers/images/common/mac2x.png" alt="">
     </div>
   </div>
+  <div class="partners">
+    <h2>I nostri studenti sono stati assunti da</h2>
+    <div class="brands">
+      <img src="https://www.boolean.careers/images/partners/facile_it.png" alt="">
+      <img src="https://www.boolean.careers/images/partners/oneday.png" alt="">
+      <img src="https://www.boolean.careers/images/partners/cayenne.png" alt="">
+      <img src="https://www.boolean.careers/images/partners/softec.png" alt="">
+      <img src="https://www.boolean.careers/images/partners/fabbrica_digitale.png" alt="">
+    </div>
+  </div>
 </div>

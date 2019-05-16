@@ -8,6 +8,7 @@
 .container {
   width: 100vw;
   height: 100vh;
+  overflow: auto;
 }
 
 a {
@@ -16,7 +17,7 @@ a {
 
 header {
   width: 100%;
-  height: 13%;
+  height: 15%;
   background-color: white;
   display: flex;
   position: -webkit-sticky;
@@ -36,6 +37,7 @@ header > .left-header {
 header > .left-header > img {
   max-width: 90%;
   max-height: 60%;
+  padding-left: 10px;
   cursor: pointer;
 }
 
@@ -81,16 +83,12 @@ header > .right-header .navbar > .navbar-item > a#subscribe {
   flex-wrap: wrap;
 }
 
-.content .become-developer .left,
-.content .become-developer .right {
-  width: 50%;
-  height: 100%;
-}
-
 .content .become-developer .left {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 45%;
+  height: 100%;
 }
 
 .content .become-developer .left .cont {
@@ -108,7 +106,7 @@ header > .right-header .navbar > .navbar-item > a#subscribe {
 .content .become-developer .left p {
   color: #1B3C59;
   font-size: 18px;
-  margin-bottom: 40px;
+  margin: 0 0 40px;
 }
 
 .content .become-developer .left a {
@@ -119,14 +117,39 @@ header > .right-header .navbar > .navbar-item > a#subscribe {
 }
 
 .content .become-developer .right {
+  width: 55%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .content .become-developer .right > img {
-  width: 80%;
-  height: 75%;
+  max-width: 80%;
+  max-height: 75%;
+}
+
+.content .partners {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  background-color: #1B3C59;
+}
+
+.content .partners > h2 {
+  margin: 0 0 8px;
+  font-weight: 400;
+}
+
+.content .partners > .brands > img {
+  width: 150px;
+  height: 35px;
+  margin: 20px;
+  padding: 0 15px;
 }
 
 @media all and (max-width: 1000px) {
@@ -137,6 +160,10 @@ header > .right-header .navbar > .navbar-item > a#subscribe {
   .become-developer > .left,
   .become-developer > .right {
     width: 100% !important;
+  }
+
+  .partners {
+    display: none !important;
   }
 }
 
