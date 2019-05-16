@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- Responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon -->
     <link rel="shortcut icon" href="https://www.boolean.careers/images/favicon/favicon.ico">
     <!-- Css -->
