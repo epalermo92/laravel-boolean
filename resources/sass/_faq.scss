@@ -30,3 +30,71 @@
     }
   }
 }
+
+.questions{
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  >.left,>.right{
+    width: 50%;
+    height: 100%;
+
+    padding: 50px;
+
+    .cont{
+      width: 100%;
+      height: 100%;
+
+      @include myflex-center;
+      flex-direction: column;
+
+      >p{
+        display: none;
+
+        width: 80%;
+
+        font-size: 18px;
+
+        margin: 0 0 16px;
+      }
+    }
+
+    h2{
+      font-weight: 400;
+      font-size: 32px;
+
+      margin-bottom: 30px;
+    }
+
+    h3{
+      width: 80%;
+
+      display: flex;
+      justify-content: space-between;
+
+      font-weight: 400;
+      font-size: 24px;
+
+      margin-bottom: 30px;
+
+      cursor: pointer;
+
+      i.fas.fa-minus{
+        display: none;
+      }
+    }
+  }
+
+  >.left{
+    background-color: #E8EBF1;
+    color: $principalColor;
+  }
+
+  >.right{
+    background-color: $principalColor;
+    color: white;
+  }
+}

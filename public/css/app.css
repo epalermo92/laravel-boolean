@@ -365,6 +365,71 @@ footer .boolean-returns > small {
   text-decoration: underline;
 }
 
+.questions {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.questions > .left,
+.questions > .right {
+  width: 50%;
+  height: 100%;
+  padding: 50px;
+}
+
+.questions > .left .cont,
+.questions > .right .cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.questions > .left .cont > p,
+.questions > .right .cont > p {
+  display: none;
+  width: 80%;
+  font-size: 18px;
+  margin: 0 0 16px;
+}
+
+.questions > .left h2,
+.questions > .right h2 {
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.questions > .left h3,
+.questions > .right h3 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.questions > .left h3 i.fas.fa-minus,
+.questions > .right h3 i.fas.fa-minus {
+  display: none;
+}
+
+.questions > .left {
+  background-color: #E8EBF1;
+  color: #1B3C59;
+}
+
+.questions > .right {
+  background-color: #1B3C59;
+  color: white;
+}
+
 @media all and (max-width: 1000px) {
   .navbar-item {
     display: none;
@@ -417,6 +482,11 @@ footer .boolean-returns > small {
 
   .boolean-returns {
     padding: 0 20px;
+  }
+
+  .questions > .left,
+  .right {
+    width: 100% !important;
   }
 }
 
