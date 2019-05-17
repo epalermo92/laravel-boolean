@@ -5,7 +5,7 @@
   <div class="right-header">
     <div class="navbar">
       <div class="navbar-item">
-        <a class="item" href="#">HOME</a>
+        <a class="item" href="{{ route('home') }}">HOME</a>
       </div>
       <div class="navbar-item">
         <a class="item" href="#">CORSO</a>
@@ -17,7 +17,7 @@
         <a class="item" href="#">DOPO IL CORSO</a>
       </div>
       <div class="navbar-item">
-        <a class="item" href="#">FAQ</a>
+        <a class="item" href="{{ route('faq') }}">FAQ</a>
       </div>
       <div class="navbar-item">
         <a id="subscribe" href="#">Iscriviti</a>
