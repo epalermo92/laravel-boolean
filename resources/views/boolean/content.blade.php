@@ -24,4 +24,27 @@
       <img src="https://www.boolean.careers/images/partners/fabbrica_digitale.png" alt="">
     </div>
   </div>
+  <div class="why-boolean">
+    <h2>Perchè Boolean</h2>
+    <div class="points">
+      <div class="point">
+        point1
+      </div>
+      <div class="point">
+        point2
+      </div>
+      <div class="point">
+        point3
+      </div>
+      <div class="point">
+        point4
+      </div>
+      <div class="point">
+        point5
+      </div>
+      <div class="point">
+        point6
+      </div>
+    </div>
+  </div>
 </div>

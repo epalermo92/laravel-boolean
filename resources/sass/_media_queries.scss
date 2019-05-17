@@ -3,6 +3,15 @@
     display: none;
   }
 
+  .become-developer{
+    height: auto !important;
+    margin-bottom: 50px;
+
+    .left{
+      margin-bottom: 50px;
+    }
+  }
+
   .become-developer > .left,.become-developer > .right{
     width: 100% !important;
   }

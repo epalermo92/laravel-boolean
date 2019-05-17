@@ -125,8 +125,8 @@ header > .right-header .navbar > .navbar-item > a#subscribe {
 }
 
 .content .become-developer .right > img {
-  max-width: 80%;
-  max-height: 75%;
+  max-width: 75%;
+  max-height: 70%;
 }
 
 .content .partners {
@@ -152,9 +152,42 @@ header > .right-header .navbar > .navbar-item > a#subscribe {
   padding: 0 15px;
 }
 
+.content .why-boolean {
+  height: 450px;
+  width: 100%;
+  padding: 40px 0;
+  background-color: #E8EBF1;
+}
+
+.content .why-boolean > h2 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.content .why-boolean .points {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content .why-boolean .points .point {
+  width: 30%;
+}
+
 @media all and (max-width: 1000px) {
   .navbar-item {
     display: none;
+  }
+
+  .become-developer {
+    height: auto !important;
+    margin-bottom: 50px;
+  }
+
+  .become-developer .left {
+    margin-bottom: 50px;
   }
 
   .become-developer > .left,
