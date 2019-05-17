@@ -62,6 +62,10 @@ header{
 
           font-size: 16px;
         }
+
+        .selected{
+          border-bottom: 2px solid $booleanGreen;
+        }
       }
     }
   }

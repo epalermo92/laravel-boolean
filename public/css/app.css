@@ -72,6 +72,10 @@ header > .right-header .navbar > .navbar-item > a#subscribe {
   font-size: 16px;
 }
 
+header > .right-header .navbar > .navbar-item .selected {
+  border-bottom: 2px solid #61CE4E;
+}
+
 header i.fas.fa-bars {
   padding-right: 20px;
   font-size: 30px;
@@ -330,6 +334,35 @@ footer .boolean-returns {
 
 footer .boolean-returns > small {
   font-size: 12px;
+}
+
+.how-to-become {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  color: #1B3C59;
+}
+
+.how-to-become > .phrases > h1 {
+  font-weight: 400;
+  font-size: 44px;
+  padding: 0 80px;
+  margin: 0 0 8px;
+}
+
+.how-to-become > .phrases > p {
+  padding: 0 80px;
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+.how-to-become > .phrases > p > a {
+  color: #1B3C59;
+  text-decoration: underline;
 }
 
 @media all and (max-width: 1000px) {
