@@ -23,5 +23,6 @@
         <a id="subscribe" href="#">Iscriviti</a>
       </div>
     </div>
+    <i class="fas fa-bars"></i>
   </div>
 </header>

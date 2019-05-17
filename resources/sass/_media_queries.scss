@@ -27,4 +27,25 @@
   .point{
     width: 100% !important;
   }
+
+  .right-header{
+    @include myflex-center;
+
+    i.fas.fa-bars{
+      display: block !important;
+    }
+  }
+
+  .next-course{
+    top: 3% !important;
+    right: 40% !important;
+  }
+
+  .prefooter > .links{
+    width: 100% !important;
+  }
+
+  .boolean-returns{
+    padding: 0 20px;
+  }
 }
