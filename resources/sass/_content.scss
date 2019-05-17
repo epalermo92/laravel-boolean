@@ -87,13 +87,17 @@
     height: 450px;
     width: 100%;
 
-    padding: 40px 0;
+    padding: 40px;
 
     background-color: #E8EBF1;
+    color: $principalColor;
 
     >h2{
       text-align: center;
       margin: 0 0 20px;
+
+      font-size: 32px;
+      font-weight: 400;
     }
 
     .points{
@@ -104,6 +108,26 @@
 
       .point{
         width: 30%;
+
+        padding: 0 15px;
+
+        >img{
+          width: 25px;
+          height: 30px;
+        }
+
+        >h3{
+          display: inline;
+
+          font-size: 18px;
+          font-weight: 400;
+        }
+
+        >p{
+          margin: 25px 0 16px;
+
+          font-size: 14px;
+        }
       }
     }
   }

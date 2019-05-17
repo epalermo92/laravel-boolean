@@ -1,9 +1,5 @@
 <?php
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', 'MyController@getHome');
 
-Route::get('boolean', function () {
-    return view('home');
-});
+Route::get('boolean','MyController@getHome');

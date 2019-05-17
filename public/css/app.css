@@ -155,13 +155,16 @@ header > .right-header .navbar > .navbar-item > a#subscribe {
 .content .why-boolean {
   height: 450px;
   width: 100%;
-  padding: 40px 0;
+  padding: 40px;
   background-color: #E8EBF1;
+  color: #1B3C59;
 }
 
 .content .why-boolean > h2 {
   text-align: center;
   margin: 0 0 20px;
+  font-size: 32px;
+  font-weight: 400;
 }
 
 .content .why-boolean .points {
@@ -174,6 +177,23 @@ header > .right-header .navbar > .navbar-item > a#subscribe {
 
 .content .why-boolean .points .point {
   width: 30%;
+  padding: 0 15px;
+}
+
+.content .why-boolean .points .point > img {
+  width: 25px;
+  height: 30px;
+}
+
+.content .why-boolean .points .point > h3 {
+  display: inline;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.content .why-boolean .points .point > p {
+  margin: 25px 0 16px;
+  font-size: 14px;
 }
 
 @media all and (max-width: 1000px) {
@@ -197,6 +217,14 @@ header > .right-header .navbar > .navbar-item > a#subscribe {
 
   .partners {
     display: none !important;
+  }
+
+  .why-boolean {
+    height: auto !important;
+  }
+
+  .point {
+    width: 100% !important;
   }
 }
 
