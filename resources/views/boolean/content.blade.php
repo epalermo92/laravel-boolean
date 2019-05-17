@@ -1,4 +1,5 @@
 <div class="content">
+
   <div class="become-developer">
     <div class="left">
       <div class="cont">
@@ -14,6 +15,7 @@
       <img src="https://www.boolean.careers/images/common/mac2x.png" alt="">
     </div>
   </div>
+
   <div class="partners">
     <h2>I nostri studenti sono stati assunti da</h2>
     <div class="brands">
@@ -24,6 +26,7 @@
       <img src="https://www.boolean.careers/images/partners/fabbrica_digitale.png" alt="">
     </div>
   </div>
+
   <div class="why-boolean">
     <h2>Perchè Boolean</h2>
     <div class="points">
@@ -59,4 +62,19 @@
       </div>
     </div>
   </div>
+
+  <div class="new-profession">
+    <h2>Sei ad un passo dalla tua nuova professione</h2>
+    <p>Scrivici, raccontaci la tua storia e scopriamo insieme se Boolean è la scelta giusta per te</p>
+    <a href="#">Inizia da qui</a>
+    <div class="next-course">
+      <div class="bell">
+        <i class="far fa-bell"></i>
+      </div>
+      <div class="green-block">
+        Prossimo corso: 20 Maggio
+      </div>
+    </div>
+  </div>
+
 </div>
