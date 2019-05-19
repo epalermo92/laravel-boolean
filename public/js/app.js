@@ -93,7 +93,6 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-//Class selected già creata
 function clickPlus() {
   var h3 = $(".cont > h3");
   h3.click(function () {

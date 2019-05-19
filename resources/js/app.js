@@ -1,4 +1,3 @@
-//Class selected già creata
 function clickPlus(){
   var h3 = $(".cont > h3");
 
